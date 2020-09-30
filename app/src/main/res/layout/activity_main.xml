@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/videoLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0000000"
+    >
+
+    <RelativeLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="320dp"
+            android:layout_height="500dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+            android:gravity="center"
+            >
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/side_menu_bg">
+
+            <TextView
+                android:id="@+id/imageView"
+                android:layout_width="210dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_splash"
+                android:gravity="center"
+                android:text="VIDEO"
+                android:textColor="@color/colorAccent"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:transitionName="logo_image" />
+
+
+        </FrameLayout>
+
+        <ImageView
+                android:id="@+id/fullScreenImgBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_baseline_fullscreen_24"
+                app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

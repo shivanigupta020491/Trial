@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "751766116735",
+    "firebase_url": "https://ipathsala-3cee8.firebaseio.com",
+    "project_id": "ipathsala-3cee8",
+    "storage_bucket": "ipathsala-3cee8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751766116735:android:32762cf30f4614db39624a",
+        "android_client_info": {
+          "package_name": "com.indtrack.ipathsala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751766116735-li8he6s445849j3qbcbu30h8alsmc0g8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.indtrack.ipathsala",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "751766116735-8isodn754nkmpm96hvd7caljckj413h1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2cOBw-EI-_pkF77D1m8ymnfTpC7GU-pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751766116735-8isodn754nkmpm96hvd7caljckj413h1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
